@@ -1,3 +1,28 @@
+/* About Section Styles */
+.about-section {
+  margin: 40px 0;
+}
+
+.about-container {
+  display: flex; /* Use flexbox for two columns */
+  gap: 24px;     /* Space between columns */
+  align-items: center; /* Vertically center columns */
+}
+
+.about-left, .about-right {
+  flex: 1; /* Each column takes up equal space */
+}
+
+.about-left {
+  padding-right: 16px; /* Space to the right of text */
+}
+
+.about-right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Slightly rounded corners */
+}
 /* General styles */
 body {
   margin: 0;
@@ -53,6 +78,7 @@ nav a:hover {
 }
 
 .hero h1 {
+  color:rgb(16, 152, 211);
   font-size: 3rem;
   margin-bottom: 1rem;
 }
